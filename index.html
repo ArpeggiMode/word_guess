@@ -4,39 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Psychic</title>
+    <title>How Romantic</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 
 </head>
 <body>
-    
-    <h1>play the game</h1>
 
-    <p>guess what I'm thinking</p>
+    <div class="container">
+    <div class="jumbotron">
+      <div class="container">
 
+        <h1>It's Time To Guess</h1>
+        <h2>Guess the name of music composers from the Romantic Era!</h2>
+        <small>Click any letter, and we shall begin.</small>
+      </div>
+    </div>
 
-<script>
+    <div class="row">
+      <div class="col-lg-12">
 
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title"><strong>What You Need to Guess</strong></h3>
+          </div>
+          <div class="card-body">
 
-    var wins = 0
-    var losses = 0
-    var guessCount = 5
-    var whatYouGuessed = 0
-    
-    function startOver
+            <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ _ _</h3>
+          </div>
+        </div>
 
-    if () {
-        wins++;
-        else {
-            losses++;
-        };
-    };
-    
-    
-    
-</script>
+        <div class="card">
+          <div class="card-body">
 
+            <strong>Bad Guesses: </strong> <span id="bad-guesses"></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+
+            <strong>Guesses Remaining: </strong> <span id="guesses-remaining">10</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+
+            <strong>Wins: </strong> <span id="win-counter">0</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+
+            <strong>Losses: </strong> <span id="loss-counter">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
 
 </body>
 </html>
