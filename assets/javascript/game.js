@@ -1,6 +1,6 @@
 
 
-var wordsList = ["brahms", "beethoven", "dvorak", "debussy", "ravel", "wagner", "paginini", "chopin", "berlioz", "tchaikovsky", "mendelssohn", "mahler"];
+var wordsList = ["brahms", "beethoven", "dvorak", "debussy", "ravel", "wagner", "paginini", "chopin", "berlioz", "tchaikovsky", "mendelssohn", "mahler", "Lizst", "Schubert", "Verdi", "Puccini", "Schumann", "Mussorgsky", "Strauss", "Faure", "Sibelius"];
 
 
 var wordToGuess = "";
